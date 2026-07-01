@@ -20,19 +20,20 @@ public:
         vector<vector<bool>> dp(n,vector<bool> (target+1,false));
         // cout<<sum;
         if(sum%2!=0) return false;
-        for(int i=0;i<n;i++){
-            dp[i][0]=true;
-        }
+        vector<bool> prev(target+1,0),curr(target+1,0);
+        prev[0]=true;curr[0]=true;
         if(nums[0] <= target)
-            dp[0][nums[0]] = true;
+            prev[nums[0]] = true;
+
         for(int i=1;i<n;i++){
             for(int j=1;j<=target;j++){
-                bool not_take=dp[i-1][j];
+                bool not_take=prev[j];
                 bool take=false;
-                if(nums[i]<=j) take=dp[i-1][j-nums[i]];
-                dp[i][j]=take|not_take;
+                if(nums[i]<=j) take=prev[j-nums[i]];
+                curr[j]=take|not_take;
             }
+            prev=curr;
         }
-        return dp[n-1][target];
+        return prev[target];
     }
 };
