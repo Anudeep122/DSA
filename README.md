@@ -6,13 +6,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/Anudeep122/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Anudeep122/DSA/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Anudeep122/DSA/tree/master/0494-target-sum) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Anudeep122/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Anudeep122/DSA/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Anudeep122/DSA/tree/master/0494-target-sum) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Anudeep122/DSA/tree/master/0322-coin-change) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Anudeep122/DSA/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
