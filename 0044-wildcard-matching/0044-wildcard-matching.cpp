@@ -20,9 +20,10 @@ public:
     bool isMatch(string s, string p) {
         int n=s.length();
         int m=p.length();
+        vector<int> prev(m+1,0),curr(m+1,0);
         vector<vector<int>> dp(n+1,vector<int> (m+1,0));
-        dp[0][0]=1;
-        for(int i=1;i<=n;i++) dp[i][0]=0;
+        prev[0]=1;
+        
         for(int j=1;j<=m;j++){
             int flag=1;
             for(int i=1;i<=j;i++){
@@ -31,19 +32,20 @@ public:
                     break;
                 }
             }
-            dp[0][j]=flag;
+            prev[j]=flag;
         }
 
         for(int i=1;i<=n;i++){
             for(int j=1;j<=m;j++){
-                if(s[i-1]==p[j-1] || p[j-1]=='?') dp[i][j]=dp[i-1][j-1];
+                if(s[i-1]==p[j-1] || p[j-1]=='?') curr[j]=prev[j-1];
                 else if(p[j-1]=='*'){
-                    dp[i][j]=(dp[i-1][j] | dp[i][j-1]);
+                    curr[j]=(prev[j] | curr[j-1]);
                 }
-                else dp[i][j]=0;
+                else curr[j]=0;
             }
+            prev=curr;
         }
-        return dp[n][m];
+        return prev[m];
         // return fun(n,m,s,p,dp);
     }
 };
