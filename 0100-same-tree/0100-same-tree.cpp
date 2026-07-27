@@ -25,12 +25,15 @@ public:
             
             if(node1->val!=node2->val) return false;
 
-             st1.push(node1->right);
-             st1.push(node1->left);
+            st1.push(node1->right);
+            st1.push(node1->left);
 
-             st2.push(node2->right);
-             st2.push(node2->left);
+            st2.push(node2->right);
+            st2.push(node2->left);
         }
+        if(!st1.empty() || !st2.empty())
+            return false;
+
         return true;
     }
 };
