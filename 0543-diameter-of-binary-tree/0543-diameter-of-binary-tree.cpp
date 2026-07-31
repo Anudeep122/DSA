@@ -13,18 +13,17 @@ class Solution {
 public:
     int ans=0;
 
-    int Diameter(TreeNode* node){
+    int dfs(TreeNode* node){
         if(node==NULL) return 0;
-        int left=Diameter(node->left);
-        int right=Diameter(node->right);
-        ans=max(ans,left+right);
-        return 1+max(left,right);
+        int lft=dfs(node->left);
+        int rit=dfs(node->right);
+
+        ans = max(ans,lft+rit);
+        return max(lft,rit)+1;
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        // return height(root->left)+height(root->right);
-        
-        Diameter(root);
+        dfs(root);
         return ans;
     }
 };
