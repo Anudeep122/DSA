@@ -11,12 +11,12 @@ public:
                 zeros++;   
             }
             if(zeros<=k) ans=r-l+1;
-            else {
-                while(zeros>k){
-                    if(nums[l]==0) zeros--;
-                    l++; 
-                }
+            
+            while(zeros>k){
+                if(nums[l]==0) zeros--;
+                l++; 
             }
+            
 
 
             mx=max(mx,ans);
