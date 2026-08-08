@@ -8,7 +8,7 @@ public:
         while(r<n){
             hash[s[r]-'A']++;
             freq=max(freq,hash[s[r]-'A']);
-            while((r-l+1)-freq>k){
+            if((r-l+1)-freq>k){
                 hash[s[l]-'A']--;
                 freq=0;
                 for(int i=0;i<26;i++) freq=max(freq,hash[i]);
