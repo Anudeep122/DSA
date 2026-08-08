@@ -10,8 +10,7 @@ public:
             freq=max(freq,hash[s[r]-'A']);
             if((r-l+1)-freq>k){
                 hash[s[l]-'A']--;
-                freq=0;
-                for(int i=0;i<26;i++) freq=max(freq,hash[i]);
+                
                 l++;
             }
             if((r-l+1)-freq<=k) ans=max(ans,r-l+1);
