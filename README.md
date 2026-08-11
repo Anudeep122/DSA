@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Anudeep122/DSA/tree/master/0035-search-insert-position) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Anudeep122/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/Anudeep122/DSA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Anudeep122/DSA/tree/master/0416-partition-equal-subset-sum) |
@@ -138,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Anudeep122/DSA/tree/master/0035-search-insert-position) |
 | [1004-max-consecutive-ones-iii](https://github.com/Anudeep122/DSA/tree/master/1004-max-consecutive-ones-iii) |
 ## Prefix Sum
 |  |
