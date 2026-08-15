@@ -11,8 +11,7 @@ public:
             }
             else hi=mid-1;
         }
-        //cout<<ans<<endl;
-
+        cout<<ans;
         lo=0,hi=n-1;
         if(k>=v[0] && k<=v[ans])hi=ans;
         else lo = ans+1;
