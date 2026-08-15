@@ -1,20 +1,29 @@
 class Solution {
 public:
-    int search(vector<int>& nums, int k) {
-        int n=nums.size();
-        int low=0,high=n-1;
-        while(low<=high){
-            int mid=(low+high)/2;
-            if(nums[mid]==k) return mid;
-            else if(nums[low]<=nums[mid]){
-                if(nums[low]<=k && k<=nums[mid]) high=mid-1;
-                else low=mid+1;
+    int search(vector<int>& v, int k) {
+        int n=v.size();
+        int lo=0,hi=n-1,ans;
+        while(lo<=hi){
+            int mid = (lo+hi);
+            if(v[lo]<=v[mid] && v[mid]>=v[hi]){
+                ans = mid;
+                lo = mid+1;
             }
-            else{
-                if(k>=nums[mid] && k<=nums[high]) low=mid+1;
-                else high=mid-1;
-            }
+            else hi=mid-1;
         }
+        //cout<<ans<<endl;
+
+        lo=0,hi=n-1;
+        if(k>=v[0] && k<=v[ans])hi=ans;
+        else lo = ans+1;
+
+        while(lo<=hi){
+            int mid = (lo+hi)/2;
+            if(v[mid]==k)return mid;
+            else if(v[mid]<k)lo=mid+1;
+            else hi = mid-1;
+        }
+
         return -1;
     }
 };
