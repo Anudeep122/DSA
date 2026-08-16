@@ -1,26 +1,39 @@
 class Solution {
 public:
+    bool chk(vector<int>& v,int k,int mid){
+        int n=v.size();
+        long int sum = 0;
+        for(int i=0;i<mid;i++){
+            sum += (long)v[i];
+        }
+
+        int l=0,r=mid-1;
+        if((long)mid*(long)v[r]-sum <=k)return true;
+
+        while(r+1<n){
+            r++;
+            sum += v[r]-v[l];
+            if((long)mid*(long)v[r]-sum<=k)return true;
+            l++;
+        }
+
+        return false;
+    }
+
     int maxFrequency(vector<int>& nums, int k) {
         int n = nums.size();
-        nums.insert(nums.begin(),0);
         sort(nums.begin(),nums.end());
-        vector<long int> ps(n+1,0);
-        for(int i=1;i<=n;i++){
-            ps[i]=ps[i-1]+nums[i];
-        }
-        long int l=1,r=1,ans=0;
-        while(r<=n){
-            long int x=nums[r]*(r-l+1);
-            long int req=x-(ps[r]-ps[l-1]);
-            while(req>k){
-                l++;
-                x=nums[r]*(r-l+1);
-                req=x-(ps[r]-ps[l-1]);
+
+        int lo=1,hi=n,ans=0;
+        while(lo<=hi){
+            int mid = (lo+hi)/2;
+            if(chk(nums,k,mid)){
+                ans = mid;
+                lo = mid+1;
             }
-            ans=max(ans,r-l+1);
-            r++;
+            else hi = mid-1;
         }
-        return (int)ans;
-        
+
+        return ans;
     }
 };
