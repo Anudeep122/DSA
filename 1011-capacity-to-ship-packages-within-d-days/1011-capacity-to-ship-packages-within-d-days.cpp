@@ -10,6 +10,7 @@ public:
             else{
                 cnt++;
                 temp=v[i];
+                if(temp>mid) return -1;
             }
         }
         return cnt;
@@ -17,13 +18,12 @@ public:
 
     int shipWithinDays(vector<int>& v, int days) {
         int n=v.size();
-        long long int low=*max_element(v.begin(), v.end()),high,ans=0;
-        for(int i=0;i<n;i++){
-            high+=v[i];
-        }
+        long long int low=0,high=INT_MAX,ans=0;
+        
         while(low<=high){
             long long int mid=low+(high-low)/2;
-            if(sum(v,mid)<=days){
+            long long int x = sum(v,mid);
+            if(x<=days && x!=-1){
                 ans=mid;
                 high=mid-1;
             }
