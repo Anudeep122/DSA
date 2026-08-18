@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Anudeep122/DSA/tree/master/0002-add-two-numbers) |
 | [0044-wildcard-matching](https://github.com/Anudeep122/DSA/tree/master/0044-wildcard-matching) |
 ## Stack
 |  |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Anudeep122/DSA/tree/master/0002-add-two-numbers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Anudeep122/DSA/tree/master/1248-count-number-of-nice-subarrays) |
 ## Counting
 |  |
@@ -187,4 +189,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Anudeep122/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Anudeep122/DSA/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
