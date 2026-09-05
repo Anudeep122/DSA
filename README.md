@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/Anudeep122/DSA/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/Anudeep122/DSA/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/Anudeep122/DSA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [0735-asteroid-collision](https://github.com/Anudeep122/DSA/tree/master/0735-asteroid-collision) |
 | [0875-koko-eating-bananas](https://github.com/Anudeep122/DSA/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Anudeep122/DSA/tree/master/0904-fruit-into-baskets) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/Anudeep122/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Anudeep122/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Anudeep122/DSA/tree/master/0496-next-greater-element-i) |
+| [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [0904-fruit-into-baskets](https://github.com/Anudeep122/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Anudeep122/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Anudeep122/DSA/tree/master/0992-subarrays-with-k-different-integers) |
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/Anudeep122/DSA/tree/master/0044-wildcard-matching) |
 | [0402-remove-k-digits](https://github.com/Anudeep122/DSA/tree/master/0402-remove-k-digits) |
+| [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Anudeep122/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Recursion
 |  |
@@ -212,10 +215,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Anudeep122/DSA/tree/master/0992-subarrays-with-k-different-integers) |
 ## Sorting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Anudeep122/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Linked List
 |  |
@@ -256,4 +261,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Anudeep122/DSA/tree/master/0225-implement-stack-using-queues) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
