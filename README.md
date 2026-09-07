@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Anudeep122/DSA/tree/master/0002-add-two-numbers) |
+| [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -264,5 +265,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
+## Merge Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
