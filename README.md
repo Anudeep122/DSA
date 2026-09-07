@@ -220,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Anudeep122/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Linked List
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Anudeep122/DSA/tree/master/0042-trapping-rain-water) |
+| [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
@@ -258,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Anudeep122/DSA/tree/master/0225-implement-stack-using-queues) |
+| [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
 ## Queue
 |  |
 | ------- |
@@ -266,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
+| [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 ## Divide and Conquer
 |  |
@@ -279,4 +283,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
+## Data Stream
+|  |
+| ------- |
+| [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
 <!---LeetCode Topics End-->
