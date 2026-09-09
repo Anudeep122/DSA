@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Anudeep122/DSA/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/Anudeep122/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0322-coin-change](https://github.com/Anudeep122/DSA/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0416-partition-equal-subset-sum](https://github.com/Anudeep122/DSA/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Anudeep122/DSA/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/Anudeep122/DSA/tree/master/0496-next-greater-element-i) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Anudeep122/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/Anudeep122/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/Anudeep122/DSA/tree/master/0496-next-greater-element-i) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
@@ -216,12 +218,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Anudeep122/DSA/tree/master/0992-subarrays-with-k-different-integers) |
 ## Sorting
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Anudeep122/DSA/tree/master/1838-frequency-of-the-most-frequent-element) |
 ## Linked List
@@ -273,11 +277,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/Anudeep122/DSA/tree/master/0621-task-scheduler) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Anudeep122/DSA/tree/master/0023-merge-k-sorted-lists) |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 ## Merge Sort
 |  |
 | ------- |
@@ -290,4 +296,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Anudeep122/DSA/tree/master/0295-find-median-from-data-stream) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Anudeep122/DSA/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
